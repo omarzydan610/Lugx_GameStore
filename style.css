@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header {
+  background-color: #0171f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+
+.headerLinks a {
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+.headerLinks a:hover {
+  background-color: #2386fe;
+}
+
+.logo {
+  width: 100px;
+}
+
+.btn {
+  background-color: #ee626b;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 15px;
+  height: 30px;
+}
+
+.btn:hover {
+  background-color: #f2858c;
+  transform: scale(1.1);
+}
+
+.landingPage {
+  color: white;
+  background-color: #0171f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  border-radius: 0 0 50px 50px;
+}
+
+.landingPage .imageSection img {
+  margin: 20px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+.landingPage .leftSection {
+  width: 700px;
+}
+
+.landingPage .leftSection .input input {
+  height: 20px;
+  width: 200px;
+  border: none;
+  outline: none;
+  padding: 5px 7px;
+  border-radius: 15px;
+}
+
+.landingPage .leftSection .input button {
+  position: absolute;
+  left: 200px;
+}
+
+.content {
+  padding: 0 50px;
+}
+
+.title {
+  color: #ee626b;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section span {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0;
+}
+
+.card1 {
+  margin: 10px 0;
+  width: 200px;
+  background-color: #eeeeee;
+  border-radius: 15px;
+}
+
+.card1 .cardInfo a img {
+  margin: 0;
+  width: 40px;
+}
+
+.card1 .cardInfo {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card1 img {
+  width: 200px;
+  border-radius: 15px 15px 0 0;
+}
+
+.cards1 {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+.cards2 {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.cards3 {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.topGames {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #eeeeee;
+}
+
+.topCategories .info {
+  width: max-content;
+  text-align: center;
+  /* Set a fixed width */
+  margin: 0 auto;
+}
+
+.subtitle {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0;
+}
+
+.card2 .cardInfo {
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.card2 img {
+  width: 120px;
+  border-radius: 15px;
+}
+
+.card3 img {
+  width: 150px;
+  border-radius: 15px;
+}
+.card3 {
+  width: 150px;
+  height: 150px;
+  background-color: #0171f9;
+  border-radius: 15px;
+}
+.card3 .category {
+  height: 30px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center; /* Centers text horizontally */
+  align-items: center;
+}
+.card3:hover {
+  transform: scale(1.1);
+}
+.footer {
+  color: white;
+  background-color: #0171f9;
+  text-align: center;
+  height: 100px;
+  border-radius: 70px 70px 0 0;
+  display: flex;
+  justify-content: center; /* Centers text horizontally */
+  align-items: center;
+}
